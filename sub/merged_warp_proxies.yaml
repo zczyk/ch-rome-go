@@ -51,6 +51,19 @@ proxies:
   - 1.1.1.1
   - 8.8.8.8
   dialer-proxy: WARP前置节点
+- name: meta_tuic_01
+  server: 109.104.152.219
+  port: 19008
+  type: tuic
+  uuid: 9f8c2f3e-cb9e-410f-9b87-f1615ac1a1bb
+  password: dongtaiwang.com
+  sni: bing.com
+  alpn:
+  - h3
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: meta_tuic_11
   server: tuic1.freeh1.xyz
   port: 40981
@@ -112,18 +125,19 @@ proxies:
   udp-relay-mode: native
   skip-cert-verify: true
   congestion-controller: bbr
-- name: meta_hysteria_61
-  type: hysteria
+- name: meta_tuic_61
   server: www2.dtku49.xyz
-  port: 37363
-  sni: www.microsoft.com
-  skip-cert-verify: true
+  port: 45109
+  type: tuic
+  uuid: e0f87141-9993-495d-a788-de03ef84116e
+  password: uRm/ZAq5Qel+
+  sni: bing.com
   alpn:
   - h3
-  protocol: udp
-  auth_str: n8Paxd1Uad5wisPoT6i43lrerK1O5iQRfHnbI3RRsIrbdkyLZP
-  up: 10
-  down: 50
+  request-timeout: 8000
+  udp-relay-mode: native
+  skip-cert-verify: true
+  congestion-controller: bbr
 - name: meta_hysteria_71
   type: hysteria
   server: www.dtku50.xyz
@@ -162,10 +176,10 @@ proxies:
   down: 55
 - name: hysteria_0
   type: hysteria
-  server: 108.181.22.239
-  port: 61561
-  ports: 61561
-  auth_str: PBhG3zqMKaMO5ZnemDvLrZ6v0Fd7EqCutDvzLNtvWHJ6IpMWJg
+  server: 109.104.152.180
+  port: 64502
+  ports: 64502
+  auth_str: kxeFKpB8fhGjP7cO7NNgXYr19ZsqKQMco612ZCfXiaJrojw571
   up: 80
   down: 100
   fast-open: true
@@ -253,12 +267,13 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 油管-绵阿羊
+  - meta_tuic_01
   - meta_tuic_11
   - meta_tuic_21
   - meta_tuic_31
   - meta_hysteria_41
   - meta_tuic_51
-  - meta_hysteria_61
+  - meta_tuic_61
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
@@ -271,12 +286,13 @@ proxy-groups:
   type: select
   proxies:
   - 油管-绵阿羊
+  - meta_tuic_01
   - meta_tuic_11
   - meta_tuic_21
   - meta_tuic_31
   - meta_hysteria_41
   - meta_tuic_51
-  - meta_hysteria_61
+  - meta_tuic_61
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
@@ -289,12 +305,13 @@ proxy-groups:
   type: load-balance
   proxies:
   - 油管-绵阿羊
+  - meta_tuic_01
   - meta_tuic_11
   - meta_tuic_21
   - meta_tuic_31
   - meta_hysteria_41
   - meta_tuic_51
-  - meta_hysteria_61
+  - meta_tuic_61
   - meta_hysteria_71
   - meta_hysteria_81
   - meta_hysteria_91
