@@ -71,14 +71,14 @@ proxies:
   server: 23.227.38.23
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_03
@@ -131,7 +131,7 @@ proxies:
   server: 162.159.153.11
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
@@ -168,7 +168,7 @@ proxies:
   servername: per-essex-patterns-bowling.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
 - name: meta_vmess_09
@@ -191,14 +191,14 @@ proxies:
   server: yh1.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_011
@@ -251,14 +251,14 @@ proxies:
   server: yh2.dtku41.xyz
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_015
@@ -551,14 +551,14 @@ proxies:
   server: yh1.freeh1.xyz
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_32
@@ -611,14 +611,14 @@ proxies:
   server: 23.227.39.12
   port: 8080
   cipher: auto
-  uuid: d4534b81-2c40-48a2-9a7b-35cd958c7437
+  uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
   alterId: 0
   tls: false
   skip-cert-verify: true
   servername: uh-lawyers-instruments-kernel.trycloudflare.com
   network: ws
   ws-opts:
-    path: d4534b81-2c40-48a2-9a7b-35cd958c7437-vm
+    path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     headers:
       host: uh-lawyers-instruments-kernel.trycloudflare.com
 - name: meta_vmess_42
